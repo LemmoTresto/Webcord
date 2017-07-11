@@ -44,6 +44,16 @@ If you don't want to input an avatar_url and don't want to use the default one y
 set avatar_url to an empty string or just ONE space. The avatar_url will be removed from the payload.
 Returns discord status code for more information on status codes look at the status code wiki.
 
+send_embed(embed, username, avatar_url=None)
+
+
+(Soon I'll make an embed system without the need of discord.py!)
+Send a discord.py embed.
+To make such an embed you need to import discord
+but first install it using pip install discord
+then import and create an instance of discord.Embed()
+set your params and fields.
+
 
 change_url(urls/urls)
 
