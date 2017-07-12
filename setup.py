@@ -7,7 +7,7 @@ setup(
   author = 'Max Berkelmans',
   author_email = 'maxberkelmans@live.nl',
   url = 'https://github.com/maximinijanijos/webcord',
-  download_url = 'https://github.com/maximinijanijos/webcord/archive/0.1.tar.gz',
+  download_url = 'https://github.com/MaxiMiniJaniJos/Webcord/archive/v0.1.tar.gz',
   keywords = ['wrapper', 'api', 'discord', 'webhooks'], # arbitrary keywords
   classifiers = [],
 )
