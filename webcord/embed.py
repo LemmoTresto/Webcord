@@ -25,9 +25,9 @@ DEALINGS IN THE SOFTWARE.
 """
 
 import datetime
-
+from webcord.webcord import utils
 from .colour import Colour
-from . import utils
+
 
 class _EmptyEmbed:
     def __bool__(self):

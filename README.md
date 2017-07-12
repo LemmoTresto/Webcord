@@ -5,10 +5,10 @@ Installation.
 
 In CMD Line:
   pip install webcord
- 
+
 If you don't have pip installed:
  Search for the library on pypi and install it manually.
- 
+
 
 # Usage:
 
@@ -33,7 +33,7 @@ webhook = Webhook('WEBHOOKURL', avatar_url=None)
 Functions:
 To use a function you need to use the instance you have created in the top of your code and then use the function.
 If you don't understand this then please look at an example.
-Everything returns nothing at the moment. Functions work but if you want to 
+Everything returns nothing at the moment. Functions work but if you want to
 
 
 send_message(message, username, avatar_url=None)

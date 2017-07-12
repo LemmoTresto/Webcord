@@ -1,9 +1,6 @@
 """
-
-
-
-
-
+Webcord
+An Webhook API Wrapper for Discord.
 """
 
 __title__ = 'Webcord'
@@ -14,4 +11,4 @@ __version__ = '0.1'
 
 from .webhook import Webhook
 from .embed import Embed
-from .colour import Color, Colour
+from .colour import Colour, Color
