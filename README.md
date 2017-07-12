@@ -1,10 +1,10 @@
-# dishook.py
+# Webcord
 Webhooks library for python
 
 Installation.
 
 In CMD Line:
-  pip install dishook.py
+  pip install webcord
  
 If you don't have pip installed:
  Search for the library on pypi and install it manually.
@@ -16,7 +16,7 @@ This usage is made for people who don't even really don't know Python. I made th
 
 First you need to import the library:
 
-from dishook.py import Webhook
+from webcord import Webhook
 
 Then you have to create the webhook instance.
 WEBHOOKURL should be replaced with the webhook url you want to use.
@@ -48,7 +48,7 @@ send_embed(embed, username, avatar_url=None)
 
 
 Send a discord embed.
-make an instance of dishook.Embed()
+make an instance of webcord.Embed()
 set your params and fields.
 Same rules apply about the avatar_url as with send_message.
 
