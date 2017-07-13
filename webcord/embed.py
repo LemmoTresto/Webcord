@@ -25,7 +25,7 @@ DEALINGS IN THE SOFTWARE.
 """
 
 import datetime
-from webcord.webcord import utils
+from . import utils
 from .colour import Colour
 
 
